@@ -5,8 +5,8 @@ FROM python:3.12-slim
 WORKDIR /app
 
 # Copiar el archivo de dependencias e instalarlas
-COPY requierements.txt .
-RUN pip install --no-cache-dir -r requierements.txt
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copiar el resto del código del proyecto
 COPY . .
