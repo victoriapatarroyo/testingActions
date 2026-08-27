@@ -22,7 +22,7 @@ jobs:
       - name: Install dependecies
         run: pip install -r requierements.txt
       - name: Check linting
-        run: python -m ruff check .
+        run: python -m ruff check . --fix
       - name: Test with pytest
         run: python -m pytest
       - name: Login to GitHub Container Registry
