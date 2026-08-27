@@ -1,0 +1,4 @@
+pytest==9.0.3
+hypothesis==6.152.4
+typeguard==2.13.3
+pluggy==1.6.0
