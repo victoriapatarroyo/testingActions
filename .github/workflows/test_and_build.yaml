@@ -20,5 +20,7 @@ jobs:
 
       - name: Install dependecies
         run: pip install -r requierements.txt
+      - name: Check linting
+        run: python -m ruff check .
       - name: Test with pytest
         run: python -m pytest
