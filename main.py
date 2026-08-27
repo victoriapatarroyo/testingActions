@@ -2,4 +2,4 @@ import os
 
 class Calculadora:
     def sum(self, a: int, b:int) -> int:
-        return 0
+        return a + b
